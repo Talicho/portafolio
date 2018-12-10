@@ -16,7 +16,7 @@ export class InfoPaginaService {
   }
 
   private cargarInfo() {
-    // Leer el archivo JSON
+    // Leer el archivo JSON de Firebase
     this.http.get('assets/data/data.json')
       .subscribe( (resp: InfoPagina) => {
         this.cargada = true;
