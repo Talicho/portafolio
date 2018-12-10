@@ -9,3 +9,10 @@ export interface InfoPagina {
   tumblr?: string;
   equipo_trabajo?: any[];
 }
+
+// export interface infoPersona {
+//   frase: string;
+//   nombre: string;
+//   subtitulo: string;
+//   twitter: string;
+// }
